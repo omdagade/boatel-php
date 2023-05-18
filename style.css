@@ -1,0 +1,791 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Garamond", Times, serif;
+}
+
+
+
+.head1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 99.8%;
+
+
+}
+
+#limg {
+    height: 5rem;
+    width: 11rem;
+    margin-right: 60rem;
+
+}
+
+#signimg {
+    height: 2.5rem;
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+#losign {
+    font-size: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+#losign:hover {
+    transform: scale(1.2)
+}
+
+#signimg:hover {
+    transform: scale(1.2)
+}
+
+
+
+
+
+
+
+.head2 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: rgb(247, 49, 49);
+    border: .1rem solid black;
+    height: 3rem;
+    width: 99.8%;
+}
+
+
+#hele {
+    color: white;
+    margin: 0 1.5rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+#hele:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+.searchhotel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .1rem solid black;
+    height: 7rem;
+}
+
+#mainhead {
+    color: rgb(247, 49, 49);
+    margin-top: 3rem;
+    padding: 2rem 26rem;
+    font-size: 3rem;
+
+}
+
+#pincode {
+    height: 3rem;
+    width: 30rem;
+
+    border: .1rem solid rgb(247, 49, 49);
+    color: black;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+#searchbtn {
+    background-color: #1ab64f;
+    border: .1rem solid black;
+    cursor: pointer;
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#searchbtn:hover {
+    background-color: #057a2c;
+}
+
+
+
+#banner {
+    width: 98%;
+    margin: .5rem;
+}
+
+.footerele {
+    width: 100%;
+    height: 30rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot1 {
+    height: 17rem;
+    width: 28%;
+    padding: 2rem;
+    margin: 5rem;
+}
+
+#ftele1 {
+    color: white;
+    padding-bottom: 1rem;
+}
+
+#ft1 {
+    color: white;
+}
+
+#ftp1 {
+    color: white;
+}
+
+#ftp1:hover {
+    color: red;
+    transform: scale(.9);
+    cursor: pointer;
+}
+
+#ftp2 {
+    color: white;
+}
+
+#ftp3 {
+    color: black;
+}
+
+.ftpp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+
+
+#about4 {
+    font-size: 3rem;
+    margin: 1rem 30rem;
+    color: rgb(247, 49, 49);
+}
+
+#abt4 {
+    height: 15rem;
+    width: 60rem;
+    border: .1rem solid rgb(247, 49, 49);
+    margin: 3rem 10rem;
+}
+
+#abt4 p {
+    font-size: 2rem;
+    margin: 1.5rem;
+}
+
+
+
+
+
+
+
+#contact4 {
+    font-size: 3rem;
+    margin: 1rem 33rem;
+    color: rgb(247, 49, 49);
+}
+
+#contactdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .1rem solid rgb(247, 49, 49);
+    width: 60rem;
+    margin: 6rem 13rem;
+}
+
+.form1ele {
+    height: 2rem;
+    width: 15rem;
+    margin: 1rem;
+    color: black;
+    font-size: 1rem;
+    border: .1rem solid rgb(247, 49, 49);
+}
+
+#sub123 {
+    height: 3rem;
+    width: 8rem;
+    background-color: rgb(247, 49, 49);
+    color: white;
+    font-size: 1rem;
+    margin: 2rem 4rem;
+
+}
+
+#sub123:hover {
+    transform: scale(.9);
+}
+
+
+@media (max-width:1300px) {
+    #limg {
+        text-align: left;
+        margin-right: 50rem;
+    }
+}
+
+@media (max-width:1130px) {
+    #limg {
+        text-align: left;
+        margin-right: 40rem;
+    }
+}
+
+@media (max-width:976px) {
+    #signimg {
+        display: none;
+    }
+
+    #losign {
+        display: none;
+    }
+}
+
+@media (max-width:792px) {
+    #limg {
+        text-align: left;
+        margin-left: 37rem;
+    }
+}
+
+@media (max-width:548px) {
+   #hele{
+    transform: scale(.9, 1);
+    margin: 0 .5rem;
+   }
+    
+}
+
+@media (max-width:462px) {
+    #hele{
+        transform: scale(.9, 1);
+        margin: 0 0.5rem;
+    }
+     
+ }
+
+ @media (max-width:420px) {
+    #hele{
+        transform: scale(.8, 1);
+        margin:0 .5rem;
+        font-size: 1.1rem;
+    }
+     
+ }
+
+ @media (max-width:360px) {
+    #hele{
+        transform: scale(.8, 1);
+        font-size: 1rem;
+        margin:0 0.2rem;
+    }
+     
+ }
+
+ @media (max-width:296px) {
+    #hele{
+        transform: scale(.6, 1);
+        font-size: 1rem;
+        margin:0 0rem;
+    }
+     
+ }
+
+ @media (max-width:274px) {
+    #hele{
+        transform: scale(.6, 1);
+        font-size: 1rem;
+        margin:0 0rem;
+    }
+     
+ }
+
+ @media (max-width:1210px) {
+    #mainhead{
+        padding: 2rem 16rem;
+    }
+     
+ }
+
+ @media (max-width:882px) {
+    #mainhead{
+        padding: 2rem 8rem;
+    }
+     
+ }
+
+ @media (max-width:626px) {
+    #mainhead{
+        padding: 2rem 2rem;
+    }
+     
+ }
+
+ @media (max-width:434px) {
+    #mainhead{
+        padding: 2rem .5rem;
+    }
+     
+ }
+
+ @media (max-width:386px) {
+    #mainhead{
+        padding: 2rem .5rem;
+        font-size: 2rem;
+    }
+     
+ }
+
+ @media (max-width:646px) {
+    .searchhotel{
+        margin: 0 1rem;
+    }
+     
+ }
+
+ @media (max-width:646px) {
+    #banner{
+        height: 20rem;
+    }
+     
+ }
+
+ @media (max-width:418px) {
+    #banner{
+        height: 15rem;
+    }
+     
+ }
+
+ @media (max-width:318px) {
+    #banner{
+        height: 12rem;
+    }
+     
+ }
+
+ @media (max-width:1006px) {
+    .footerele{
+        display: block;
+        height: 35rem;
+        
+    }
+    .foot1{
+        height: 4rem;
+        width: 60%;
+        margin: 5rem 1rem;
+    }
+     
+ }
+
+ @media (max-width:338px) {
+    .footerele{
+        display: block;
+        height: 40rem;
+        
+    }
+    .foot1{
+        height: 7rem;
+        width: 60%;
+        margin: 5rem 1rem;
+    }
+     
+ }
+
+ @media (max-width:338px) {
+    #ftele1{
+        font-size: 1rem;
+    }
+    #ftp2{
+        font-size: 1rem;
+    }
+    #ft1{
+        font-size: 1rem;
+    }
+    #ftp1{
+        font-size: 1rem;
+    }
+     
+ }
+
+ @media (max-width:282px) {
+    #ftele1{
+        font-size: 1rem;
+    }
+    #ftp2{
+        font-size: .8rem;
+    }
+    #ftp1{
+        font-size: .8rem;
+    }
+    #ft1{
+        font-size: .8rem;
+    }
+    .foot1{
+        height: 7rem;
+        width: 60%;
+        margin: 3rem 1rem;
+    }
+     
+     
+ }
+
+@media (max-width:1012px) {
+    .footerele{
+        height:38rem;
+    }
+}
+
+@media (max-width:326px) {
+    .ftpp{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width:322px) {
+    .footerele{
+        height:41rem;
+    }
+}
+
+@media (max-width:272px) {
+    .ftpp{
+        font-size: .6rem;
+    }
+}
+
+
+
+
+
+
+
+
+.hotellistingdiv{
+    display: flex;
+    width: 98%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: .1rem solid black;
+    border-radius: 2rem;
+    margin-left: 1%;
+    height: 20rem;
+}
+
+.formbook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hotellogo{
+    margin:2rem;
+    height: 18rem;
+    width: auto;
+    
+}
+
+
+.nameaddpricediv{
+    height: 19rem;
+    width: 45rem;
+    
+    
+}
+.hotelname{
+    font-size: 3rem;
+    margin: 2rem 4rem;
+    color:rgb(247, 49, 49) ;
+    font-weight: bolder;
+}
+
+.hotelname:hover{
+    transform: scale(1.05);
+}
+
+.hoteladd{
+    font-size: 1.5rem;
+    margin: 2rem 4rem;
+    color: black;
+
+}
+
+.hotelprice{
+    font-size: 2rem;
+    margin: 2rem 4rem;
+    color: #1ab64f;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.booknowbtn{
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.8rem;
+    color: white;
+    background-color:rgb(247, 49, 49)  ;
+    transition: .5s ease-in-out 0s;
+}
+
+.booknowbtn:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+}
+
+
+
+.loginsignupdiv{
+    
+    border: .1rem solid black;
+    box-shadow: 5px 10px 8px gray;
+    height: 30rem;
+    width: 23rem;
+    margin: 5rem 35vw;
+    background-color: white;
+    border-radius: 2rem;
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+#makeunvisib{
+    margin: 0.5rem;
+    color: red;
+}
+
+#makeunvisib:hover{
+    transform: scale(1.1);
+}
+
+.loginsignupdiv:hover{
+    transform: scale(1.05);
+}
+
+#fulllsdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: rgba(0,0,0,0.3);
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    
+    
+}
+
+
+#registerbtn{
+    color: white;
+    background-color: rgb(247, 49, 49);
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.8rem;
+    margin: 1rem 2rem;
+}
+
+#loginbtn{
+    color: white;
+    background-color: rgb(247, 49, 49);
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.8rem;
+    margin: 1rem 1rem;
+}
+
+#registerbtn:hover{
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+#loginbtn:hover{
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+.logindiv{
+    border-top: .1rem solid black;
+}
+
+#logineleemail{
+    width: 15rem;
+    height: 3rem;
+    margin: 1rem 3.5rem;
+    font-size: 1.5rem;
+}
+
+
+
+#loginelepass{
+    width: 15rem;
+    height: 3rem;
+    margin: 1rem 3.5rem;
+    font-size: 1.5rem;
+}
+
+#loginsubmitbtn{
+    color: white;
+    background-color:green;
+    height: 2.5rem;
+    width: 7rem;
+    font-size: 1.5rem;
+    margin: 2rem 8rem;
+}
+
+#loginsubmitbtn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+#logformp{
+    font-size: 2rem;
+    margin: 1rem 7.5rem;
+}
+
+
+
+
+
+.registerdiv{
+    border-top: .1rem solid black;
+    display: none;
+}
+
+#registereleemail{
+    width: 15rem;
+    height: 3rem;
+    margin: 1rem 3.5rem;
+    font-size: 1.5rem;
+}
+
+
+
+#registerelepass{
+    width: 15rem;
+    height: 3rem;
+    margin: 1rem 3.5rem;
+    font-size: 1.5rem;
+}
+
+#registersubmitbtn{
+    color: white;
+    background-color:green;
+    height: 2.5rem;
+    width: 7rem;
+    font-size: 1.5rem;
+    margin: 2rem 8rem;
+}
+
+#registersubmitbtn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+#regformp{
+    font-size: 2rem;
+    margin: 1rem 7.5rem;
+}
+
+#closelsdiv{
+    height: 1.5rem;
+    width: 1.5rem;
+    
+    margin:.5rem 1rem;
+}
+
+#closelsdiv:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+
+
+#indexlogout{
+    font-size: 1.5rem;
+    margin: .5rem;
+    color: red;
+    text-decoration: none;
+}
+#indexlogout:hover{
+    transform: scale(0.8);
+}
+
+
+
+
+
+.overalldiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+    border:.1rem solid black;
+    border-radius: 1rem;
+    margin: 5rem 17rem;
+}
+
+#searchtname{
+    font-size: 3rem;
+    color: red;
+    margin: 5rem 0;
+}
+
+#searchformlabel{
+    
+    font-size: 1.5rem;
+    
+}
+
+#searchdate{
+    width: 100%;
+    margin: 2rem 0rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    
+}
+
+#searchtime{
+    width: 100%;
+    margin: 1rem 0;
+    height: 2.5rem;
+    font-size: 1.5rem;
+}
+
+#searchpagebtn{
+    color: white;
+    background-color: red;
+    width: 100%;
+    height: 8vh;
+    font-size: 1.5rem;
+    margin:2rem 0;
+}
+
+#searchpagebtn:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
