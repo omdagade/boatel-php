@@ -20,7 +20,7 @@ session_start();
     <div id="fulllsdiv">
         <div id="lsdiv" class="loginsignupdiv">
 
-            <img onclick="closels()" id="closelsdiv" src="close.png" alt="close">
+            <a href="index.php"><img onclick="closels()" id="closelsdiv" src="close.png" alt="close"></a>
 
             <div class="loginregisterbtn">
                 <button onclick="regclick()" id="registerbtn">Register</button>

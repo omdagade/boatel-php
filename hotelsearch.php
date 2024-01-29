@@ -56,6 +56,7 @@ if (!isset($_SESSION['checkabc'])) {
         </div>
     </header>
     <main>
+        <div class="omtempdiv">
         <div class="overalldiv">
             <div>
             <p id="searchtname">
@@ -79,7 +80,7 @@ if (!isset($_SESSION['checkabc'])) {
             <label id="searchformlabel"  for="time">Select Time</label>
             <input id="searchtime" name="time" pattern="[0-9]{2}:[0-9]{2}" type="time" required>
             
-            <input name="searchpagebtn" id="searchpagebtn" type="submit" value="Book Now">
+            <center><input name="searchpagebtn" id="searchpagebtn" type="submit" value="Book Now"></center>
             </form>
 
             </div>
@@ -87,7 +88,7 @@ if (!isset($_SESSION['checkabc'])) {
 
         
 
-        
+        </div>
     </main>
     <div class="footer">
         <div class="footerele">
@@ -119,3 +120,4 @@ if (!isset($_SESSION['checkabc'])) {
 </body>
 
 </html>
+

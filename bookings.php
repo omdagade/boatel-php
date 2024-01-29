@@ -53,7 +53,7 @@
                 $result = mysqli_query($con, $qwery);
 
                 while ($res = mysqli_fetch_array($result)) {
-                    echo '<div class="hotellistingdiv">
+                    echo '<center><div class="hotellistingdiv">
             
                     <div class="formbook">
                         <img class="hotellogo" src="hotel.png" alt="">
@@ -66,7 +66,7 @@
         
                     </div>
         
-                </div>';
+                </div></center>';
                 }
 
                 ?>

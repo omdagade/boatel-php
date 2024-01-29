@@ -43,7 +43,7 @@
     </header>
 
     <main>
-        <p id="contact4">CONTACT US</p>
+        <center><p id="contact4">CONTACT US</p>
 
     <div id="contactdiv">
         <form action="">
@@ -53,7 +53,8 @@
         <input id="f1message" class="form1ele" type="text" placeholder="Enter Message" ><br>
         <button type="button" id="sub123" onclick="contactsubmitclick()">SUBMIT</button>
     </form>
-    </div>    
+    </div> 
+    </center>   
 
 
     </main>

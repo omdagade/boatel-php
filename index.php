@@ -72,11 +72,11 @@ mysqli_query($con,"Delete from bookings WHERE date < sysdate() - INTERVAL '1' DA
         <div class="searchhotel">
             <form method="post">
                 <input type="text" name="pincode" id="pincode" placeholder="Enter Pincode">
-                <button name="searchbtn" id="searchbtn">Search Hotels</button>
+                <button name="searchbtn" id="searchbtn">Search</button>
             </form>
         </div>
 
-        <div>
+        <div class="madiv">
             <?php
             if (array_key_exists("searchbtn", $_POST)) {
                 searchresult($con);
@@ -96,7 +96,9 @@ mysqli_query($con,"Delete from bookings WHERE date < sysdate() - INTERVAL '1' DA
                             <img class="hotellogo" src="hotel.png" alt="">
                             <div class="nameaddpricediv"><label name="hotelname" class="hotelname">' . $row["hotelname"] . '</p>
                             <p class="hoteladd" >' . $row["hoteladd"] . '</p>
+
                             <p class="hotelprice">Price-: ' . $row["price"] . '₹</p>
+                            
                             </div>
                             <button class="booknowbtn" name="btn" value= ' . str_replace(" ", "-", $row["hotelname"]).'+'.$pincode.   ' type="submit">Book Now</button>
             
